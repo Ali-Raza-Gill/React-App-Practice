@@ -1,0 +1,29 @@
+@import "./scss/bootstrap";
+
+#root{
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+main{
+  flex: 1 0 auto;
+  margin-top: 53px;
+}
+.imgincarousel{
+  height: 650px;
+}
+.card{
+  width: 18rem;
+  margin-top: 20px;
+ 
+}
+.card-img-top{
+  height: 200px;
+}
+.feautred-img{
+  height: 200px;
+  width: 300px;
+}
+.featured-row{
+  margin-left: 50px;
+}
